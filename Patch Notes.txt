@@ -1,0 +1,7 @@
+2.00: First playable version of Battleships released with a single (low intelligence) difficulty level
+...
+2.60: Fixed adjecent firing algorithm in accordance with modified ship generation routine
+2.65: UI cleanup
+2.70: Added game timer and cleaned up settings area
+2.71: Minor edits regarding surrender mechanics
+3.00: Added mechanic allowing player to generate ships manually
