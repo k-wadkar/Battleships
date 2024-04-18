@@ -1603,8 +1603,10 @@ namespace Battleships
                     //Prints evertything in a specific text file which details the patch notes
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
                     typeWriter("PATCH NOTES:\n\n");
+                    //typeWriter(System.IO.File.ReadAllText(@".\Patch Notes.txt") + "\n\n\nPress any button to return to menu:", 2);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    typeWriter("Patch notes unavailable. Press any button to return to menu:", 2);
                     resetDefaultFontColour();
-                    typeWriter(System.IO.File.ReadAllText(@".\Patch Notes.txt") + "\n\n\nPress any button to return to menu:", 2);
                     Console.ReadKey();
                 }
                 //5 - Credits and Info
